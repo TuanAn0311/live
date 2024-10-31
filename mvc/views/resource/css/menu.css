@@ -1,0 +1,35 @@
+img {
+  width: 120px;
+  transition: 0.5ms;
+  padding: 0px 0px 10px 10px;
+}
+
+a {
+  color: yellow;
+  justify-content: center;
+}
+
+.container-fluid {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.181);
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
