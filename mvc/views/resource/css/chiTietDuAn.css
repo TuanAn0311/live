@@ -3,10 +3,10 @@
   color: black;
   padding: 4px;
   border-radius: 5px;
-  border: 2px solid black ;
+  border: 2px solid black;
   font-weight: bold;
   transition: all 0.3s ease; /*hiệu ứng chuyển tiếp khi di chuột gần hoặc ra xa*/
-font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hearChiTietDuAn {
@@ -30,22 +30,22 @@ font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
-a,
+#chiTietDuAn a,
 button {
   color: white;
 }
 
-a:hover {
+#chiTietDuAn a:hover {
   color: yellow;
   text-decoration: none;
 }
 
-button:active {
+#chiTietDuAn button:active {
   background-color: #147833;
   transform: scale(0.95); /*hiệu ứng chìm nhẹ*/
 }
 
-.container {
+#chiTietDuAn {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
   border-radius: 5px;
@@ -53,7 +53,7 @@ button:active {
   margin: 20px 0px 20px 0px;
 }
 
-.tomTatDuAn table {
+#tomTatDuAn table {
   color: white;
   background-color: grey;
   border-radius: 5px;
@@ -63,7 +63,7 @@ button:active {
   color: white;
 }
 
-#chiTietDuAn a:hover{ 
+#chiTietDuAn a:hover {
   color: yellow;
   text-decoration: none;
 }
@@ -71,7 +71,7 @@ button:active {
   background-color: #ffffff; /* Màu cho dòng chẵn */
 }
 
-.table-striped{
+.table-striped {
   color: white;
   background-color: grey;
   border-radius: 5px;

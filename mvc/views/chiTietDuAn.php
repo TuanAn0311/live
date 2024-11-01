@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 tomTatDuAn">
-                <table class="table table-striped" style="border-radius: 5px">
+            <div class="col-md-4" id="tomTatDuAn">
+                <table class="table table-striped" style=" margin-top:10px">
                     <thead>
                         <tr>
                             <th colspan="2">Tóm tắt dự án</th>
