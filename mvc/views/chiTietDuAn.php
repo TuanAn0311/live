@@ -21,7 +21,7 @@
 <body>
     <div class="container" id="chiTietDuAn">
         <div class="row">
-            <div class="col-md-8 ">
+            <div class="col-md-8">
                 <div class="hearChiTietDuAn">
                     <span>Chi tiết dự án</span>
                     <button class="chaoGia">Chào giá cho dự án</button>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="kiNang">
                     <p><b>Kỹ năng bắt buộc</b></p>
-                    <div class="container-TAG ">
+                    <div class="container-TAG">
                         <a href="#">biết anh Xun</a>
                         <a href="#">Không tai nạn</a>
                         <a href="#">Anh khánh học html</a>

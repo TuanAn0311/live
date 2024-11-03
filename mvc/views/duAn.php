@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dự Án</title>
+    <style>
+        div{
+            justify-content:center;
+        }
+    </style>
 </head>
 <body style="background-color:rgba(0, 0, 0, 0.7);">
     <div class="header">

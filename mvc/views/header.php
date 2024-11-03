@@ -41,9 +41,9 @@
             </div>
             <div class="col-md-2">
                 <div class="dropdown">
-                    <button class="dropdown-toggle w-100" type="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="dropdown-toggle w-100" type="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                         Khám phá dịch vụ
-                    </button>
+                    </span>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Dịch vụ từ Freelancer</a></li>
                         <li><a class="dropdown-item" href="#">Dự án tìm Freelancer</a></li>

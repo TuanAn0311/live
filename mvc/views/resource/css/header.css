@@ -1,4 +1,4 @@
-#header{
+#header {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -19,7 +19,7 @@
   border-radius: 4px 0px 0px 4px;
 }
 #navbarDropdown {
-  color: black;
+  color: yellow;
 }
 .line {
   height: 35px;
@@ -36,10 +36,9 @@
 }
 .dropdown-toggle {
   border: none;
-  background-color: yellow;
   margin-top: 5px;
 }
 
-.dropdown ul{
+.dropdown ul {
   background-color: rgba(0, 0, 0, 0.7);
 }

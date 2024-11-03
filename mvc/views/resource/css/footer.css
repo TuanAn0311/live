@@ -3,11 +3,11 @@
 }
 
 #footer img {
-  width: 10%;
+  width: 100px;
   padding: 10px;
 }
 
- h5 {
+h5 {
   color: white;
   padding: 10px;
 }
@@ -15,21 +15,21 @@
 #footer a:hover {
   color: rgba(255, 255, 0, 0.485);
   text-decoration: none;
-} 
+}
 
-#footer a{
+#footer a {
   color: yellow;
 }
 
-footer{
+footer {
   text-align: center;
   color: white;
 }
 
-#footer{
+#footer {
   padding: 20px;
-  margin-top:20px;
+  margin-top: 20px;
 }
-#footer .gray{
+#footer .gray {
   color: gray;
 }
