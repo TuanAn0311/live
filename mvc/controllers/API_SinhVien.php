@@ -1,6 +1,7 @@
 <?php
 class API_SinhVien extends Controller{
-
+////////////////////////////////// thêm dữ liệu/////////////////////////////////////////
+    
     public function DanhSach(){
         //model
         $sinhvien = $this->model("SinhVienModel");

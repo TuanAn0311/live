@@ -1,11 +1,28 @@
 <?php
 class Home extends Controller{
     // kế thừa các funtion trong controller.php
-    function SayHi(){
+    function trangChu(){
         //model() ở Controller.php
-        $teo = $this->model("SinhVienModel");
-        echo $teo->GetSV();
+        $CV = $this->model("congViec");
+        
+        $this->view("home",["page1"=>"job","page2"=>"jobDetail","CV"=>$CV->GET_CongViec()]);
     }
+
+    function jobDetail($macv) {
+        $CV = $this->model("congViec");
+        $UT = $this->model("ungTuyen");
+        $NTD = $this->model("nhaTuyenDung");
+        $this->view("joinJob", ["page2"=>"jobDetail",
+        "chiTietCV" => $CV->GET_chiTietCV($macv),
+         "nguoiDung"=> $CV->GET_NguoiDung_by_maCV($macv),
+        "soUngTuyen"=> $UT->GET_soLuongUngTuyen($macv),
+        "nhaTuyenDung"=> $NTD->GET_nhaTuyenDung_by_CV($macv)
+    ]);
+
+
+    }
+
+
     function Show($a, $b){
         //model
         $an = $this->model("SinhVienModel");

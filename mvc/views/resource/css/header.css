@@ -12,15 +12,21 @@
   color: black;
 }
 
-#text {
+.input-group input {
   border-radius: 4px 0px 0px 4px;
   height: 35px;
-  border: 1px solid black;
-  border-radius: 4px 0px 0px 4px;
+  border: none;
 }
-#navbarDropdown {
-  color: yellow;
+.input-group input:focus{
+  outline: none;
 }
+
+.input-group button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .line {
   height: 35px;
   border-left: 2px solid #ccc;
@@ -36,9 +42,14 @@
 }
 .dropdown-toggle {
   border: none;
+  color: yellow;
   margin-top: 5px;
 }
 
 .dropdown ul {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+a{
+  text-decoration: none;
 }

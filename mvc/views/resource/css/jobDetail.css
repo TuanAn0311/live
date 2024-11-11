@@ -21,7 +21,7 @@
   border: 2px solid rgba(255, 255, 0, 0.433);
 }
 
-.container-TAG a {
+.container-TAG span {
   background-color: #147833;
   padding: 3px 5px 3px 5px;
   border-radius: 5px;
@@ -75,4 +75,10 @@ button {
   color: white;
   background-color: grey;
   border-radius: 5px;
+}
+
+.thongTinKhachHang img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2%;
 }
