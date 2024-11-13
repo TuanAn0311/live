@@ -21,7 +21,6 @@ class congViec extends DB {
         $sql = "SELECT * FROM nguoi_dung WHERE ma_nguoi_dung = ".$nguoiDung['ma_nha_tuyen_dung'];
         return mysqli_query($this->con, $sql);
     }
-
     
 
 }

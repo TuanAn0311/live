@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .container{
-            margin: 20px 0px 20px 0px;
+            margin: 5px 0px 5px 0px;
             justify-content: center;
         }
         body{

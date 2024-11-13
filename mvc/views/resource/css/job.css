@@ -18,6 +18,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical; /*Thiết lập hướng của box*/
 }
+
 .white {
   color: white;
 }

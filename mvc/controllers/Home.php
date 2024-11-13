@@ -1,22 +1,24 @@
 <?php
 class Home extends Controller{
     // kế thừa các funtion trong controller.php
-    function trangChu(){
+    function trang_chu(){
         //model() ở Controller.php
         $CV = $this->model("congViec");
         
-        $this->view("home",["page1"=>"job","page2"=>"jobDetail","CV"=>$CV->GET_CongViec()]);
+        $this->view("home",["page1"=>"job","CV"=>$CV->GET_CongViec()]);
     }
 
     function jobDetail($macv) {
         $CV = $this->model("congViec");
         $UT = $this->model("ungTuyen");
         $NTD = $this->model("nhaTuyenDung");
+        $NTV = $this->model("nguoiTimViec");
         $this->view("joinJob", ["page2"=>"jobDetail",
         "chiTietCV" => $CV->GET_chiTietCV($macv),
          "nguoiDung"=> $CV->GET_NguoiDung_by_maCV($macv),
         "soUngTuyen"=> $UT->GET_soLuongUngTuyen($macv),
-        "nhaTuyenDung"=> $NTD->GET_nhaTuyenDung_by_CV($macv)
+        "nhaTuyenDung"=> $NTD->GET_nhaTuyenDung_by_CV($macv),
+        "danhSachMaNguoiTimViec"=> $NTV->GET_danh_sach_ma_nguoi_tim_viec($macv)
     ]);
 
 

@@ -8,7 +8,7 @@
             <div class="row">
             <div class="col-md-1"></div>
                 <div class="col-md-1">
-                    <a href="">
+                    <a href="http://localhost/live/Home/trang_chu">
                     <img src="/live/mvc/views/resource/pictures/logo.png" alt="Logo" style=" width:110px; height:auto;">
                     </a>
                 </div>

@@ -41,7 +41,7 @@
             </div>
             <div class="col-lg-3">
                 <h5>Liên Kết</h5>
-                    <p><a href="" class="foot ">Trang Chủ</a></p>
+                    <p><a href="http://localhost/live/Home/trang_chu" class="foot ">Trang Chủ</a></p>
                     <p><a href="" class="foot">Tìm Việc</a></p>
                     <p><a href="" class="foot">Chia sẽ việc làm</a></p>
                     <p><a href="" class="foot">Tài khoản</a></p>
