@@ -64,7 +64,9 @@
   width: 55%;
   padding: 10px;
   border-radius: 5px;
+  justify-content: center;
 }
+
 .timKiemTrangChu input {
   font-size: 20px;
   border: none;

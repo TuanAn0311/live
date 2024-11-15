@@ -11,3 +11,4 @@ var giay = now.getSeconds();
 
 // Định dạng lại chuỗi thời gian theo định dạng "ngày-tháng-năm Giờ:Phút:Giây"
 var thoiGianHienTai = ngay + '-' + thang + '-' + nam + ' ' + gio + ':' + phut + ':' + giay;
+

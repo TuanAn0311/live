@@ -128,7 +128,7 @@
         <div class="form-container">
             <span class="close-button" onclick="closeForm()">×</span>
             <h2>Chào Giá Dự Án</h2>
-            <form id="chaoGiaForm" action="/live/mvc/models/DB/xuLyĐangDuAn.php" method="POST">
+            <form id="chaoGiaForm" action="/live/mvc/models/xuLyUngTuyen.php" method="POST">
                 <div class="container">
                    <div class="row">
                         <div class="col-6"><label for="proposalAmount">Giá chào</label></div>

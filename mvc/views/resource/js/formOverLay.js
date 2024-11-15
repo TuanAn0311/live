@@ -10,7 +10,7 @@ function closeForm() {
 // Optional: Handle form submission
 document.getElementById("chaoGiaForm").addEventListener("submit", function(event) {
     // Collect form data and handle submission here
-    alert("Chào giá đã được gửi!");
+    alert("Bài đăng đã được tải lên!");
     
     closeForm();
 });

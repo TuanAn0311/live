@@ -15,7 +15,7 @@ class Home extends Controller{
         $NTV = $this->model("nguoiTimViec");
         $this->view("joinJob", ["page2"=>"jobDetail",
         "chiTietCV" => $CV->GET_chiTietCV($macv),
-         "nguoiDung"=> $CV->GET_NguoiDung_by_maCV($macv),
+        "nguoiDung"=> $CV->GET_NguoiDung_by_maCV($macv),
         "soUngTuyen"=> $UT->GET_soLuongUngTuyen($macv),
         "nhaTuyenDung"=> $NTD->GET_nhaTuyenDung_by_CV($macv),
         "danhSachMaNguoiTimViec"=> $NTV->GET_danh_sach_ma_nguoi_tim_viec($macv)
