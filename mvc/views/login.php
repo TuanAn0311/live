@@ -28,8 +28,8 @@
                     <div class="row mb-4">
                         <div class="input-group d-flex align-items-center justify-content-center">
                             <div class="icon"><i class="bi bi-lock-fill">&ensp;</i></div>
-                            <input class="icon-input " type="password" name="password" id="password" placeholder="Nhập mật khẩu" required>
-                            <div class="icon"><i class="bi bi-eye eye-icon" onclick="togglePassword()"></i></div>
+                            <input class="icon-input" type="password" name="password" id="password" placeholder="Nhập mật khẩu" required>
+                            <i class="bi bi-eye eye-icon text-dark" onclick="togglePassword()"></i>
                         </div>
                     </div>
                     <div class="row mb-4">
