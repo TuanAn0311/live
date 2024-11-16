@@ -4,6 +4,13 @@
     <link rel="stylesheet" href="/live/mvc/views/resource/css/job.css">
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-6"><h3>Tìm kiếm công việc phù hợp với bạn ở đây !</h3></div>
+            <div class="col-2"></div>
+        </div>
+    </div>
     <div id="danh_sach_cong_viec">
         <?php
            while ($dong = mysqli_fetch_array($data["CV"])) {

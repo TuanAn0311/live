@@ -38,7 +38,7 @@
                     <a href="">Trở thành Freelancer</a>
                 </div>
                 <div class="col-md-3 log">
-                    <a href="">Đăng nhập</a>
+                    <a href="http://localhost/live/Home/Login">Đăng nhập</a>
                     <div class="line"></div>
                     <a href="">Đăng kí</a>
                 </div>

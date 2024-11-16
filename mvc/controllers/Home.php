@@ -7,7 +7,7 @@ class Home extends Controller{
         
         $this->view("home",["page1"=>"job","CV"=>$CV->GET_CongViec()]);
     }
-
+////////////////////////
     function jobDetail($macv) {
         $CV = $this->model("congViec");
         $UT = $this->model("ungTuyen");
@@ -20,11 +20,12 @@ class Home extends Controller{
         "nhaTuyenDung"=> $NTD->GET_nhaTuyenDung_by_CV($macv),
         "danhSachMaNguoiTimViec"=> $NTV->GET_danh_sach_ma_nguoi_tim_viec($macv)
     ]);
-
-
     }
-
-
+//////////////////////////
+    function Login(){
+        $login = $this->view("login",['']);
+    }
+////////////////////
     function Show($a, $b){
         //model
         $an = $this->model("SinhVienModel");

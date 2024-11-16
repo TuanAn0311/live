@@ -32,6 +32,12 @@
 <?php
 $con = mysqli_connect("localhost","root","","dacs2");
 $_SESSION['ma_nha_tuyen_dung'] = 1;// lấy khi login   
+//////////////
+    if (isset($_SESSION['message'])) {
+        echo  "<scrpit>alert('".$_SESSION['message']."')</scrpit>";
+        unset($_SESSION['message']);
+    }
+
 ?>
     <div class="overlay" id="formOverlay">
         <div class="form-container">
@@ -39,22 +45,22 @@ $_SESSION['ma_nha_tuyen_dung'] = 1;// lấy khi login
             <form action="http://localhost/live/cong_viec/them_cong_viec" method="POST">
                 <span class="close-button" onclick="closeForm()">×</span>
                 <h2>Nhập thông tin bài đăng</h2>
-                <input type="hidden" name="ma_nha_tuyen_dung" Value="1">
+                <input type="hidden" name="ma_nha_tuyen_dung" Value="1" required>
                 
                 <div class="mb-4 mt-4" style="text-align:center">
                     <span>Hôm nay là: <?php echo date('d-m-Y H:i:s') ?></span>
                 </div>
                 <div class="mb-3">
                     <label for="disabledTextInput" class="form-label">tiêu đề </label>
-                    <input type="text" id="disabledTextInput" name="tieu_de_cong_viec" class="form-control" placeholder="Nhập tiêu đề" require_once>
+                    <input type="text" id="disabledTextInput" name="tieu_de_cong_viec" class="form-control" placeholder="Nhập tiêu đề" required>
                 </div>
                 <div class="mb-3">
                     <label for="disabledTextInput" class="form-label">Mô tả công việc </label>
-                    <textarea type="text" id="disabledTextInput" name="mo_ta_cong_viec" class="form-control" placeholder="Nhập mô tả" require_once></textarea>
+                    <textarea type="text" id="disabledTextInput" name="mo_ta_cong_viec" class="form-control" placeholder="Nhập mô tả" required></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="disabledTextInput" class="form-label">Mức giá cho đặt trước</label>
-                    <input type="number" id="disabledTextInput" name="muc_luong" class="form-control" placeholder="0" require_once>
+                    <input type="number" id="disabledTextInput" name="muc_luong" class="form-control" placeholder="0" required>
                 </div>
                 <div class="mb-3">
                     <label for="disabledSelect" class="form-label">Chuyên ngành chính</label>
@@ -71,7 +77,7 @@ $_SESSION['ma_nha_tuyen_dung'] = 1;// lấy khi login
                 </div>   
                 <div class="mb-3">
                     <label for="disabledTextInput" class="form-label">Kỷ năng bắt buộc</label>
-                    <input type="text" id="disabledTextInput" name="ky_nang_bat_buoc" class="form-control" placeholder="Nhập ký năng bắt buộc" require_once>
+                    <input type="text" id="disabledTextInput" name="ky_nang_bat_buoc" class="form-control" placeholder="Nhập ký năng bắt buộc" required>
                 </div>
                 <div style="text-align:center"><button type="submit" class="btn btn-primary">Đăng bài</button></div>
             </form>
